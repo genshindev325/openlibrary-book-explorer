@@ -3,7 +3,7 @@ import Link from 'next/link'
 import './globals.css'
 
 export const metadata = {
-    title: 'Search + Save Explorer',
+    title: 'Openlibrary-Book-Explorer',
     description: 'Search OpenLibrary, save favorites with notes'
 }
 
