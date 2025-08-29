@@ -19,7 +19,8 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-RUN npm run prisma:generate && npm run build
+RUN npm install --include=dev
+RUN npx prisma generate && npm run build
 
 FROM node:20-slim AS runner
 WORKDIR /app
