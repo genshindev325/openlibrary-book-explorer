@@ -8,6 +8,7 @@ Next.js (App Router, TS)
 │  ├─ page.tsx                # Search page (SSR fetching /api/search)
 │  ├─ item/[...slug]/page.tsx # Details page
 │  ├─ favorites/page.tsx      # Favorites list with optimistic edits/deletes
+│  ├─ types                   # Define global type interfaces
 │  ├─ api/search/route.ts     # Proxy to OpenLibrary with caching + retry
 │  ├─ api/favorites/route.ts  # CRUD (GET list, POST create)
 │  └─ api/favorites/[id]/...  # GET one, PATCH, DELETE
