@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark: #0A1117;
+  --second-dark: #0B1D26;
+  --normal-dark: #0C1820;
+  --primary-yellow: #FBBD2C;
+  --primary-gray: #667085;
+}
+
+@theme inline {
+  --color-primary: var(--primary-dark);
+  --color-second: var(--second-dark);
+  --color-yellow: var(--primary-yellow);
+  --color-normal: var(--normal-dark);
+  --color-gray-primary: var(--primary-gray);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
