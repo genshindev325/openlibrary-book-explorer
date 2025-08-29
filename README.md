@@ -1,6 +1,6 @@
-# Search + Save Explorer
+# OPELIBRARY-BOOK-EXPLORER
 
-A small app where users can search OpenLibrary, view results, and save favorites with notes.
+A small app where users can search books with OpenLibrary, view results, and save favorites with notes.
 
 ## Tech
 
